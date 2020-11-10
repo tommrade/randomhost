@@ -4,7 +4,7 @@ Wants=network-pre.target
 Before=network-pre.target
 
 [Service]
-ExecStart=/usr/bin/randomhost
+ExecStart=/usr/local/bin/randomhost
 Type=oneshot
 
 [Install]
